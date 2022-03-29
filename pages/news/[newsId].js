@@ -10,7 +10,11 @@ function NewsDetailsPage() {
   // Send a request to the backend API
   //TO FETCH THE NEWS ITEM WITH NEWSid
 
-  return <h1>News Details Page</h1>;
+  return (
+    <div>
+      <h1>{newsId} Page</h1>
+    </div>
+  );
 }
 
 export default NewsDetailsPage;
