@@ -1,15 +1,17 @@
 //http://localhost:3000/news
 
+import Link from "next/link";
+
 function NewsPage() {
   return (
     <div>
       <h1>News Page</h1>
       <ul>
         <li>
-          <a href="/news/news-item">News Item</a>
+          <Link href="/news/news-item">News Item</Link>
         </li>
         <li>
-          <a href="/news/news-today">News Today</a>
+          <Link href="/news/news-today">News Today</Link>
         </li>
       </ul>
     </div>
